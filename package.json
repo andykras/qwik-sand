@@ -33,10 +33,18 @@
     "@typescript-eslint/parser": "^6.18.1",
     "eslint": "^8.56.0",
     "eslint-plugin-qwik": "^1.4.0",
-    "prettier": "^3.1.1",
+    "prettier": "^3.2.4",
     "typescript": "5.3.3",
     "undici": "*",
     "vite": "^5.0.11",
     "vite-tsconfig-paths": "^4.2.1"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "tabWidth": 2,
+    "printWidth": 110,
+    "arrowParens": "avoid"
   }
 }
